@@ -1,0 +1,54 @@
+*{
+   box-sizing: border-box;
+   color: #fff;
+}
+
+body{
+   background: lightgray;
+   margin-top: 100px;
+   display: flex;
+   justify-content: center;
+}
+
+main{
+width: 400px;
+border: 1px solid dimgrey;
+background: lightgray;
+border-radius: 20px;
+overflow: hidden;
+padding: 20px;
+}
+.number_button{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
+
+input{
+   width: 100%;
+   text-align: right;
+   border:none;
+   height: 90px; outline: none;
+   background: dimgrey;
+   border-radius: 50px;
+   margin-bottom: 20px;
+   color: #fff;
+   font-size: 30px;
+   padding: 20px 40px;
+}
+button{
+   background: lightslategray;
+   height: 80px;
+   outline: none;
+   border: 0.5px solid #DDD;
+   font-size: 20px;
+   border-radius: 50px;
+   margin: 5px;
+}
+button:hover{opacity: 0.8;}
+.bg_change{
+   background: orange;
+}
+
+.zero{
+   grid-column: 1/3;
+}
